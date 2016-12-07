@@ -46,5 +46,13 @@ https://github.com/udacity/machine-learning/blob/master/projects/capstone/capsto
 
 
 ## Applying the Udacity's proposal plan to this project
+I- Domain Background
+________________________________________
+Facilitate people identification had been a crucial challenge for a long time. From ID papers such as ID card to recent biometric methods, the techniques are still ongoing with improvement. 
+With new technologies, we still need to introduce safe, easy and reliable methods for people identification. The goal is to match each face with the corresponding person.
+We denote recent improvements in the field of computer science, specifically in the field of machine learning, deep learning and computer vision that we think they could allow a lot of enhancement for face recognition.
+Some researches are still done on the subject. We could relate for example the recent research work of Brandon Amos, Bartosz Ludwiczuk and Mahadev Satyanarayanan from School of Computer Science of Carnegie Mellon University, in June 2016. They demonstrated how their open source face recognition library OpenFace open the possibilities for face recognition with mobile applications. Their process was built around the LFW (Labeled Faces in the Wild), a public dataset of more than 13000 Labeled Faces images from about 6000 people. 
+
+
 
 

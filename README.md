@@ -45,4 +45,6 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 https://github.com/udacity/machine-learning/blob/master/projects/capstone/capstone_proposal_template.md
 
 
+## Applying the Udacity's proposal plan to this project
+
 

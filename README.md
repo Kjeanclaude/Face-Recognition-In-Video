@@ -72,3 +72,7 @@ III- Datasets and Inputs
 ________________________________________
 As for any machine learning problem, we need more data, relevant data to compute the face recognition process.
 Indeed, from one hand we need a dataset of faces to recognize, and on the other hand we will need to detect and capture new faces (unseen faces) as the input of the machine learning process. Then in the process, the machine will use the captured face, compare it to the faces in the given dataset and provide a result of its comparison. In fact it will try to find the faces which match in the dataset.
+So, the inputs for the whole process (unseen face images of the person to recognize) should be directly extracted from a live video or recorded video and passed through the process.
+The dataset should be a set of target faces already available in a file (for example .jpg file), a directory (directory of image files), or a database (for example the LFW).
+Each target person should already have at least 10 face images in its directory to improve the recognition process performance. But only one face must appear in each image. Then, these images will be joined to the LFW dataset mentioned above for a pre-processing where faces will be detected and aligned so that they could be filled into the Convolutional Neural Network input. 
+Finally, the unseen face images will be applied to the Convolutional Neural Network output through the SVM algorithm and perform the recognition process.

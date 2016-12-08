@@ -68,4 +68,7 @@ So, with this project I am going to create an app which can do face recognition 
 
 
 
+III- Datasets and Inputs
+________________________________________
+As for any machine learning problem, we need more data, relevant data to compute the face recognition process.
 

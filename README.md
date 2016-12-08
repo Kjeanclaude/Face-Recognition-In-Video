@@ -57,9 +57,14 @@ My main goal with this project is to build a start to end application for face r
 Generally, this requires to have the faces to recognize as input, but they may already be available in a given dataset (associated to a dataset like the LFW presented above) so that the application can compute necessary comparisons methods and give an efficient result. This project should also be applied to both live videos and recorded videos. 
 At the end of the project, users should be able to install the application on their smartphone and recognize faces included in their local database using a live video capture with their smartphone or a recorded video. 
 
+
 II- Problem Statement
 ________________________________________
 Nowadays several methods or technologies are used to perform face recognition. They are a part of the Identification and Authentication process for many infrastructure systems.
+We have a need to secure our infrastructures so that only trusted persons could have access.
+On the other hand, we also know that smartphones are expanded through the world. Everybody has a smartphone and a solution which includes it should be very practical in term of accessibility and easiness.  So why not use it for face recognition?
+We think the combination of both, machine learning technologies for face recognition and smartphones should bring significant revolutions in the domain. For example using a simple smartphone we should know who can have access to a room or not. 
+So, with this project I am going to create an app which can do face recognition using latest high-level computing technologies such as Convolutional Neural Networks and Support Vector Machine for classification.
 
 
 

@@ -71,4 +71,4 @@ So, with this project I am going to create an app which can do face recognition 
 III- Datasets and Inputs
 ________________________________________
 As for any machine learning problem, we need more data, relevant data to compute the face recognition process.
-
+Indeed, from one hand we need a dataset of faces to recognize, and on the other hand we will need to detect and capture new faces (unseen faces) as the input of the machine learning process. Then in the process, the machine will use the captured face, compare it to the faces in the given dataset and provide a result of its comparison. In fact it will try to find the faces which match in the dataset.

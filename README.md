@@ -57,6 +57,10 @@ My main goal with this project is to build a start to end application for face r
 Generally, this requires to have the faces to recognize as input, but they may already be available in a given dataset (associated to a dataset like the LFW presented above) so that the application can compute necessary comparisons methods and give an efficient result. This project should also be applied to both live videos and recorded videos. 
 At the end of the project, users should be able to install the application on their smartphone and recognize faces included in their local database using a live video capture with their smartphone or a recorded video. 
 
+II- Problem Statement
+________________________________________
+Nowadays several methods or technologies are used to perform face recognition. They are a part of the Identification and Authentication process for many infrastructure systems.
+
 
 
 

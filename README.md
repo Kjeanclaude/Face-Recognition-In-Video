@@ -81,3 +81,5 @@ Finally, the unseen face images will be applied to the Convolutional Neural Netw
 IV- Solution Statement
 ________________________________________
 A solution to deploy face recognition using latest high-level computing technologies and smartphone application should be deep learning. 
+Indeed, as explained in the previous section, face images should be transformed first through a pre-processing and given to the Convolutional Neural Network (CNN) as its input. Then the CNN will generate embeddings with them. Embeddings are a generic representation for anybody's face which reveals its unicity.
+Finally, we could apply a supervised learning algorithm such as SVM to the embeddings to perform a test and determine if each target face image (unseen face image) matches with a name in the database. 

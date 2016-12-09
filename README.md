@@ -83,3 +83,5 @@ ________________________________________
 A solution to deploy face recognition using latest high-level computing technologies and smartphone application should be deep learning. 
 Indeed, as explained in the previous section, face images should be transformed first through a pre-processing and given to the Convolutional Neural Network (CNN) as its input. Then the CNN will generate embeddings with them. Embeddings are a generic representation for anybody's face which reveals its unicity.
 Finally, we could apply a supervised learning algorithm such as SVM to the embeddings to perform a test and determine if each target face image (unseen face image) matches with a name in the database. 
+The SVM will give a score, the accuracy on the LFW dataset, which will represent in percentage how close the target face image is with a given face in the database (the closest face is returned). Let's note that it returns a score anyway as it chooses the closest face image in the database. So we have to consider low values as a mismatch. 
+And once all is done we could build the mobile application using our deep learning implementation.

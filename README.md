@@ -76,3 +76,8 @@ So, the inputs for the whole process (unseen face images of the person to recogn
 The dataset should be a set of target faces already available in a file (for example .jpg file), a directory (directory of image files), or a database (for example the LFW).
 Each target person should already have at least 10 face images in its directory to improve the recognition process performance. But only one face must appear in each image. Then, these images will be joined to the LFW dataset mentioned above for a pre-processing where faces will be detected and aligned so that they could be filled into the Convolutional Neural Network input. 
 Finally, the unseen face images will be applied to the Convolutional Neural Network output through the SVM algorithm and perform the recognition process.
+
+
+IV- Solution Statement
+________________________________________
+A solution to deploy face recognition using latest high-level computing technologies and smartphone application should be deep learning. 

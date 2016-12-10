@@ -96,4 +96,7 @@ Moreover, OpenFace is well adapted to face recognition with mobile applications.
 (See References 3)
 
 
+VI- Evaluation Metrics
+________________________________________
+The evaluation metric that can be used to quantify the performance of the deployed model is the Accuracy on the LFW (Labeled Faces in the Wild) Benchmark. 
 

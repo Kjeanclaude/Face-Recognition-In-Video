@@ -99,4 +99,8 @@ Moreover, OpenFace is well adapted to face recognition with mobile applications.
 VI- Evaluation Metrics
 ________________________________________
 The evaluation metric that can be used to quantify the performance of the deployed model is the Accuracy on the LFW (Labeled Faces in the Wild) Benchmark. 
+The LFW is a public dataset of more than 13000 Labeled Faces images from about 6000 people. It is pre-trained by OpenFace to facilitate the recognition process and improve the convolutional neural network performance.
+Indeed when we deploy the model, and pass a new picture with an unknown face to the classifier script, we get a prediction of the accuracy of the picture with the closest face in the database (which also include the new face images we have created). So, we must take this into account and consider faces with lowest scores as a mismatch. 
+
+
 

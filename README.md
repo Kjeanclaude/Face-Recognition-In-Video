@@ -90,6 +90,10 @@ And once all is done we could build the mobile application using our deep learni
 V- Benchmark Model
 ________________________________________
 To perform this task we could use OpenFace, a python free and open source face recognition library with deep neural networks which use pre-trained Convolutional Neural Network to facilitate the process. 
+It allows creating a directory of face images for each person to recognize. At least 10 images per person produce good performance but we can use more. One important information here is that only one face must appear in each image. And there's no need to crop the image around the face, OpenFace will do that automatically. 
+"So all we need to do ourselves is run our face images through their pre-trained network to get the 128 measurements for each face" and then recognize faces applying a new face image (unseen image) to the generated model classifier. 
+Moreover, OpenFace is well adapted to face recognition with mobile applications. 
+(See References 3)
 
 
 

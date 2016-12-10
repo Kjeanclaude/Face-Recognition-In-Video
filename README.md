@@ -85,3 +85,11 @@ Indeed, as explained in the previous section, face images should be transformed 
 Finally, we could apply a supervised learning algorithm such as SVM to the embeddings to perform a test and determine if each target face image (unseen face image) matches with a name in the database. 
 The SVM will give a score, the accuracy on the LFW dataset, which will represent in percentage how close the target face image is with a given face in the database (the closest face is returned). Let's note that it returns a score anyway as it chooses the closest face image in the database. So we have to consider low values as a mismatch. 
 And once all is done we could build the mobile application using our deep learning implementation.
+
+
+V- Benchmark Model
+________________________________________
+To perform this task we could use OpenFace, a python free and open source face recognition library with deep neural networks which use pre-trained Convolutional Neural Network to facilitate the process. 
+
+
+

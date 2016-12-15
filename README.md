@@ -104,3 +104,7 @@ Indeed when we deploy the model, and pass a new picture with an unknown face to 
 
 
 
+VII- Project Design
+________________________________________
+The goal of this project is to build a face recognizer using OpenFace and then deploy final improved model into a mobile application to allow live face recognition such as the digit recognition of the Deep Learning project.
+

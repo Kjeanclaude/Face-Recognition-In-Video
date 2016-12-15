@@ -110,4 +110,6 @@ The goal of this project is to build a face recognizer using OpenFace and then d
 
 As you could see below the OpenFace is a Python and Torch implementation of face recognition with deep neural networks. Torch allows the network to be executed on a CPU or with CUDA.
 ![alt tag](https://github.com/Kjeanclaude/Face-Recognition-In-Video/blob/master/OpenFace%E2%80%99s%20project%20structure.png)
-.
+Figure 1: OpenFace’s project structure.
+
+As shown in Figure 1, raw face images are prepared and trained with the dlib’s pre-trained detector. Then after some transformation (preprocessing, pose detection and alignment) these images are ready to pass through the network and be transformed into embeddings (Face representation).

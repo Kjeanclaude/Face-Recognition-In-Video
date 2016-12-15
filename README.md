@@ -108,3 +108,6 @@ VII- Project Design
 ________________________________________
 The goal of this project is to build a face recognizer using OpenFace and then deploy final improved model into a mobile application to allow live face recognition such as the digit recognition of the Deep Learning project.
 
+As you could see below the OpenFace is a Python and Torch implementation of face recognition with deep neural networks. Torch allows the network to be executed on a CPU or with CUDA.
+![alt tag](https://github.com/Kjeanclaude/Face-Recognition-In-Video/blob/master/OpenFace%E2%80%99s%20project%20structure.png)
+.

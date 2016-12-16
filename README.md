@@ -114,3 +114,6 @@ As you could see below the OpenFace is a Python and Torch implementation of face
 Figure 1: OpenFace’s project structure.
 
 As shown in Figure 1, raw face images are prepared and trained with the dlib’s pre-trained detector. Then after some transformation (preprocessing, pose detection and alignment) these images are ready to pass through the network and be transformed into embeddings (Face representation).
+The embedding is a generic representation for anybody's face. Unlike other face representations, this embedding has the nice property that a larger distance between two face embeddings means that the faces are likely not of the same person. This property makes clustering, similarity detection, and classification tasks easier than other face recognition techniques where the Euclidean distance between features is not meaningful.
+Therefore, the SVM algorithm is applied to predict the accuracy of the recognition process.
+

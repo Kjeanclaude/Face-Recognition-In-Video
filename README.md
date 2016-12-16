@@ -117,3 +117,7 @@ As shown in Figure 1, raw face images are prepared and trained with the dlib’s
 The embedding is a generic representation for anybody's face. Unlike other face representations, this embedding has the nice property that a larger distance between two face embeddings means that the faces are likely not of the same person. This property makes clustering, similarity detection, and classification tasks easier than other face recognition techniques where the Euclidean distance between features is not meaningful.
 Therefore, the SVM algorithm is applied to predict the accuracy of the recognition process.
 
+
+1- Contribution on the OpenFace library
+We define below our contribution on the OpenFace library to adapt the face recognition to our need and build the intended application. 
+Indeed, with this project we are going to try several improvements on the OpenFace project’s neural networks:

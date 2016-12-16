@@ -119,5 +119,6 @@ Therefore, the SVM algorithm is applied to predict the accuracy of the recogniti
 
 
 1- Contribution on the OpenFace library
+
 We define below our contribution on the OpenFace library to adapt the face recognition to our need and build the intended application. 
 Indeed, with this project we are going to try several improvements on the OpenFace project’s neural networks:

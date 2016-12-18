@@ -137,3 +137,10 @@ And then we will turn our face recognizer implementation in a multi-screen mobil
 And this application should have multiple use case as we can imagine; identity control access to a meeting room, staff identification (for a big company of at least 1000 employees, we cannot know everyone), etc.
 
 Another plus is the publishing of a detailed step by step guide of implementation of this kind of solution.
+
+
+
+2- Create a working face recognizer
+
+Run the OpenFace scripts from inside the OpenFace root directory as below: 
+

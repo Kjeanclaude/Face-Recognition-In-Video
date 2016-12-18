@@ -122,3 +122,10 @@ Therefore, the SVM algorithm is applied to predict the accuracy of the recogniti
 
 We define below our contribution on the OpenFace library to adapt the face recognition to our need and build the intended application. 
 Indeed, with this project we are going to try several improvements on the OpenFace project’s neural networks:
+- using the "batch-represent.lua" file (./batch-represent/batch-represent.lua) which is the torch neural network file which generates the pre-trained LFW neural network. 
+- also working on torch neural network in python files (./openface/openface/torch_neural_net.lutorpy.py and ./openface/openface/torch_neural_net.py) which are used to generate embeddings. 
+- trying to combine and test some tensorflow neural networks on the project.
+- adapting the ./demos/classifier.py python script to our project as using it we could test and tune several classifiers here including SVM with our own parameters’ value.
+Finally we should choose the customized recognizer as the model to use.
+The performance evaluation will be done on the same metric as previous (the Accuracy on the LFW) during the tests.
+

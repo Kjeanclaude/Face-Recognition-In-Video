@@ -129,3 +129,11 @@ Indeed, with this project we are going to try several improvements on the OpenFa
 Finally we should choose the customized recognizer as the model to use.
 The performance evaluation will be done on the same metric as previous (the Accuracy on the LFW) during the tests.
 
+And then we will turn our face recognizer implementation in a multi-screen mobile application where we could: 
+- create target faces' subfolders
+- add target faces' images
+- take live video of persons and recognize them
+- select a recorded video of target persons and recognize target faces in
+And this application should have multiple use case as we can imagine; identity control access to a meeting room, staff identification (for a big company of at least 1000 employees, we cannot know everyone), etc.
+
+Another plus is the publishing of a detailed step by step guide of implementation of this kind of solution.

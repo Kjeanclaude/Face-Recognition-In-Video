@@ -167,3 +167,5 @@ Here we should apply to our customized classifier the embeddings.
 ./demos/classifier.py train ./generated-embeddings/
 
 This will generate a new file called ./generated-embeddings/classifier.pkl. This file has the SVM model we'll use to recognize new faces.
+
+At this point, we should have a working face recognizer.

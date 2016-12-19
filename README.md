@@ -152,3 +152,11 @@ Here we should align the target person face images with the LFW dataset using dl
 
 This will create a new ./aligned-images/ subfolder with a cropped and aligned version of each of our test images.
 
+2.2- Generate the representations from the aligned images (neural network)
+
+Here we should pass the aligned images to our customized network input. 
+
+./batch-represent/main.lua -outDir ./generated-embeddings/ -data ./aligned-images/
+
+This will create a new ./generated-embeddings/ sub-folder which will contain a CSV file with the embeddings for each face image. 
+

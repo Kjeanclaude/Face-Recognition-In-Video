@@ -144,3 +144,11 @@ Another plus is the publishing of a detailed step by step guide of implementatio
 
 Run the OpenFace scripts from inside the OpenFace root directory as below: 
 
+2.1- Pose detection and alignment (preprocessing) 
+
+Here we should align the target person face images with the LFW dataset using dlib.
+
+./util/align-dlib.py ./training-images/ align outerEyesAndNose ./aligned-images/ --size 96
+
+This will create a new ./aligned-images/ subfolder with a cropped and aligned version of each of our test images.
+

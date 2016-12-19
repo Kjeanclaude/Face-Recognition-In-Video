@@ -160,3 +160,10 @@ Here we should pass the aligned images to our customized network input.
 
 This will create a new ./generated-embeddings/ sub-folder which will contain a CSV file with the embeddings for each face image. 
 
+2.3- Train the face detection model
+
+Here we should apply to our customized classifier the embeddings.
+
+./demos/classifier.py train ./generated-embeddings/
+
+This will generate a new file called ./generated-embeddings/classifier.pkl. This file has the SVM model we'll use to recognize new faces.

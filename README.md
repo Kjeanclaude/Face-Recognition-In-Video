@@ -169,3 +169,9 @@ Here we should apply to our customized classifier the embeddings.
 This will generate a new file called ./generated-embeddings/classifier.pkl. This file has the SVM model we'll use to recognize new faces.
 
 At this point, we should have a working face recognizer.
+
+
+3- Recognize faces
+
+This is the last step of our face recognition model building.
+Now we have to get a new picture with an unknown face and pass it to the classifier script like this:

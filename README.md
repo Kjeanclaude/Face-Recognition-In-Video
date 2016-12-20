@@ -191,3 +191,23 @@ In a video, each frame will be considered as an image and the recognition will b
 
 This is the final step of our face recognition application building.
 
+Once we have created a face recognizer on our computer which works well, we must now convert it into a beautiful mobile application in python with graphic user interfaces.
+
+These (Udacity’s) courses may help:
+
+[Develop Your First Android Application in Python](https://hameedullah.com/develop-your-first-android-application-in-python.html)
+
+[Python for Android Tutorial](http://blog.rhesoft.com/2014/07/17/python-for-android-tutorial-1-using-the-accelerometer/)
+
+[TensorFlow Android Camera Demo](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android)
+
+[Programming Foundations with Python](https://www.udacity.com/course/programming-foundations-with-python--ud036)
+
+[Developing Scalable Apps in Python](https://classroom.udacity.com/courses/ud858)
+
+[Android Development for Beginners](https://www.udacity.com/course/android-development-for-beginners--ud837)
+
+[Android Basics: Multi-screen Apps](https://www.udacity.com/course/android-basics-multi-screen-apps--ud839)
+
+[Android Basics: Data Storage](https://www.udacity.com/course/android-basics-data-storage--ud845)
+

@@ -186,3 +186,8 @@ Predict jean-claude with 0.73 confidence.
 
 In a video, each frame will be considered as an image and the recognition will be done with each new face or face position in the video.
 
+
+4- Build the mobile application
+
+This is the final step of our face recognition application building.
+

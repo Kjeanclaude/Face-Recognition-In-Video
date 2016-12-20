@@ -175,3 +175,14 @@ At this point, we should have a working face recognizer.
 
 This is the last step of our face recognition model building.
 Now we have to get a new picture with an unknown face and pass it to the classifier script like this:
+
+./demos/classifier.py infer ./generated-embeddings/classifier.pkl your_test_image.jpg
+
+We should get a prediction that looks like this:
+
+=== /test-images/ jean-claude-01.jpg ===
+
+Predict jean-claude with 0.73 confidence.
+
+In a video, each frame will be considered as an image and the recognition will be done with each new face or face position in the video.
+

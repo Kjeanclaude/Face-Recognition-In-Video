@@ -214,7 +214,21 @@ These (Udacity’s) courses may help:
 
 
 
+
 VIII- References
 ________________________________________
 
+[OpenFace](https://cmusatyalab.github.io/openface/)
+
+[Face recognition with deep neural networks](https://github.com/cmusatyalab/openface)
+
+[Openface: A general-purpose face recognition library with mobile applications](http://hgpu.org/?p=16213)
+
+[Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78#.w54pxa9mt)
+
+[Tensorflow implementation of the FaceNet face recognizer](https://github.com/davidsandberg/facenet)
+
+[Home surveillance system with facial recognition](https://github.com/pyannote/pyannote-video)
+
+[Face detection, tracking and clustering in videos](https://github.com/BrandonJoffe/home_surveillance)
 

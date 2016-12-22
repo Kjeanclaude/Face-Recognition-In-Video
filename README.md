@@ -156,7 +156,7 @@ The embedding is a generic representation for anybody's face. Unlike other face 
 Therefore, the SVM algorithm is applied to predict the accuracy of the recognition process.
 
 
-1- Contribution on the OpenFace library
+#### 1- Contribution on the OpenFace library
 
 We define below our contribution on the OpenFace library to adapt the face recognition to our need and build the intended application. 
 Indeed, with this project we are going to try several improvements on the OpenFace project’s neural networks:
@@ -178,11 +178,11 @@ Another plus is the publishing of a detailed step by step guide of implementatio
 
 
 
-2- Create a working face recognizer
+#### 2- Create a working face recognizer
 
 Run the OpenFace scripts from inside the OpenFace root directory as below: 
 
-2.1- Pose detection and alignment (preprocessing) 
+##### 2.1- Pose detection and alignment (preprocessing) 
 
 Here we should align the target person face images with the LFW dataset using dlib.
 
@@ -190,7 +190,7 @@ Here we should align the target person face images with the LFW dataset using dl
 
 This will create a new ./aligned-images/ subfolder with a cropped and aligned version of each of our test images.
 
-2.2- Generate the representations from the aligned images (neural network)
+##### 2.2- Generate the representations from the aligned images (neural network)
 
 Here we should pass the aligned images to our customized network input. 
 
@@ -198,7 +198,7 @@ Here we should pass the aligned images to our customized network input.
 
 This will create a new ./generated-embeddings/ sub-folder which will contain a CSV file with the embeddings for each face image. 
 
-2.3- Train the face detection model
+##### 2.3- Train the face detection model
 
 Here we should apply to our customized classifier the embeddings.
 
@@ -209,7 +209,7 @@ This will generate a new file called ./generated-embeddings/classifier.pkl. This
 At this point, we should have a working face recognizer.
 
 
-3- Recognize faces
+#### 3- Recognize faces
 
 This is the last step of our face recognition model building.
 Now we have to get a new picture with an unknown face and pass it to the classifier script like this:
@@ -225,7 +225,7 @@ Predict jean-claude with 0.73 confidence.
 In a video, each frame will be considered as an image and the recognition will be done with each new face or face position in the video.
 
 
-4- Build the mobile application
+#### 4- Build the mobile application
 
 This is the final step of our face recognition application building.
 

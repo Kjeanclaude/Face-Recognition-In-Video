@@ -157,6 +157,7 @@ Therefore, the SVM algorithm is applied to predict the accuracy of the recogniti
 
 
 #### 1- Contribution on the OpenFace library
+==============================
 
 We define below our contribution on the OpenFace library to adapt the face recognition to our need and build the intended application. 
 Indeed, with this project we are going to try several improvements on the OpenFace project’s neural networks:
@@ -179,6 +180,7 @@ Another plus is the publishing of a detailed step by step guide of implementatio
 
 
 #### 2- Create a working face recognizer
+==============================
 
 Run the OpenFace scripts from inside the OpenFace root directory as below: 
 
@@ -210,6 +212,7 @@ At this point, we should have a working face recognizer.
 
 
 #### 3- Recognize faces
+==============================
 
 This is the last step of our face recognition model building.
 Now we have to get a new picture with an unknown face and pass it to the classifier script like this:
@@ -226,6 +229,7 @@ In a video, each frame will be considered as an image and the recognition will b
 
 
 #### 4- Build the mobile application
+==============================
 
 This is the final step of our face recognition application building.
 

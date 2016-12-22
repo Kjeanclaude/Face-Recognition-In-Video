@@ -4,11 +4,11 @@ to detect target faces.
 	
 	This project should be used as proposal for the capstone project of the Udacity's MLND.
 
-	Proposal
+	### Proposal ###
 	(approx. 2-3 pages)
 	
 	
-	Domain Background
+	*** Domain Background ***
 	(approx. 1-2 paragraphs)
 
 	In this section, provide brief details on the background information of the domain from which the project 
@@ -18,7 +18,7 @@ to detect target faces.
 	motivation for investigating a particular problem in the domain is encouraged but not required.
 	
 	
-	Problem Statement
+	*** Problem Statement ***
 	(approx. 1 paragraph)
 
 	In this section, clearly describe the problem that is to be solved. The problem described should be well 
@@ -28,7 +28,7 @@ to detect target faces.
 	observed), and replicable (the problem can be reproduced and occurs more than once).
 	
 	
-	Datasets and Inputs
+	*** Datasets and Inputs *** 
 	(approx. 2-3 paragraphs)
 
 	In this section, the dataset(s) and/or input(s) being considered for the project should be thoroughly 
@@ -38,7 +38,7 @@ to detect target faces.
 	input(s) will be used in the project and whether their use is appropriate given the context of the problem.
 	
 	
-	Solution Statement
+	*** Solution Statement *** 
 	(approx. 1 paragraph)
 
 	In this section, clearly describe a solution to the problem. The solution should be applicable to the 
@@ -48,7 +48,7 @@ to detect target faces.
 	observed), and replicable (the solution can be reproduced and occurs more than once).
 	
 	
-	Benchmark Model
+	*** Benchmark Model *** 
 	(approximately 1-2 paragraphs)
 
 	In this section, provide the details for a benchmark model or result that relates to the domain, problem
@@ -58,7 +58,7 @@ to detect target faces.
 	clearly observed) with thorough detail.
 	
 	
-	Evaluation Metrics
+	*** Evaluation Metrics *** 
 	(approx. 1-2 paragraphs)
 
 	In this section, propose at least one evaluation metric that can be used to quantify the performance of 
@@ -69,7 +69,7 @@ to detect target faces.
 	in mathematical or logical terms).
 	
 	
-	Project Design
+	*** Project Design *** 
 	(approx. 1 page)
 
 	In this final section, summarize a theoretical workflow for approaching a solution given the problem. 

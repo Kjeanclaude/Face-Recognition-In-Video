@@ -84,7 +84,7 @@ to detect target faces.
 
 
 ## Applying the Udacity's proposal plan to this project
-I- Domain Background
+### I- Domain Background
 ________________________________________
 Facilitate people identification had been a crucial challenge for a long time. From ID papers such as ID card to recent biometric methods, the techniques are still ongoing with improvement. 
 With new technologies, we still need to introduce safe, easy and reliable methods for people identification. The goal is to match each face with the corresponding person.
@@ -96,7 +96,7 @@ Generally, this requires to have the faces to recognize as input, but they may a
 At the end of the project, users should be able to install the application on their smartphone and recognize faces included in their local database using a live video capture with their smartphone or a recorded video. 
 
 
-II- Problem Statement
+### II- Problem Statement
 ________________________________________
 Nowadays several methods or technologies are used to perform face recognition. They are a part of the Identification and Authentication process for many infrastructure systems.
 We have a need to secure our infrastructures so that only trusted persons could have access.
@@ -106,7 +106,7 @@ So, with this project I am going to create an app which can do face recognition 
 
 
 
-III- Datasets and Inputs
+### III- Datasets and Inputs
 ________________________________________
 As for any machine learning problem, we need more data, relevant data to compute the face recognition process.
 Indeed, from one hand we need a dataset of faces to recognize, and on the other hand we will need to detect and capture new faces (unseen faces) as the input of the machine learning process. Then in the process, the machine will use the captured face, compare it to the faces in the given dataset and provide a result of its comparison. In fact it will try to find the faces which match in the dataset.
@@ -116,7 +116,7 @@ Each target person should already have at least 10 face images in its directory 
 Finally, the unseen face images will be applied to the Convolutional Neural Network output through the SVM algorithm and perform the recognition process.
 
 
-IV- Solution Statement
+### IV- Solution Statement
 ________________________________________
 A solution to deploy face recognition using latest high-level computing technologies and smartphone application should be deep learning. 
 Indeed, as explained in the previous section, face images should be transformed first through a pre-processing and given to the Convolutional Neural Network (CNN) as its input. Then the CNN will generate embeddings with them. Embeddings are a generic representation for anybody's face which reveals its unicity.
@@ -125,7 +125,7 @@ The SVM will give a score, the accuracy on the LFW dataset, which will represent
 And once all is done we could build the mobile application using our deep learning implementation.
 
 
-V- Benchmark Model
+### V- Benchmark Model
 ________________________________________
 To perform this task we could use OpenFace, a python free and open source face recognition library with deep neural networks which use pre-trained Convolutional Neural Network to facilitate the process. 
 It allows creating a directory of face images for each person to recognize. At least 10 images per person produce good performance but we can use more. One important information here is that only one face must appear in each image. And there's no need to crop the image around the face, OpenFace will do that automatically. 
@@ -134,7 +134,7 @@ Moreover, OpenFace is well adapted to face recognition with mobile applications.
 (See References 3)
 
 
-VI- Evaluation Metrics
+### VI- Evaluation Metrics
 ________________________________________
 The evaluation metric that can be used to quantify the performance of the deployed model is the Accuracy on the LFW (Labeled Faces in the Wild) Benchmark. 
 The LFW is a public dataset of more than 13000 Labeled Faces images from about 6000 people. It is pre-trained by OpenFace to facilitate the recognition process and improve the convolutional neural network performance.
@@ -142,7 +142,7 @@ Indeed when we deploy the model, and pass a new picture with an unknown face to 
 
 
 
-VII- Project Design
+### VII- Project Design
 ________________________________________
 The goal of this project is to build a face recognizer using OpenFace and then deploy final improved model into a mobile application to allow live face recognition such as the digit recognition of the Deep Learning project.
 
@@ -253,7 +253,7 @@ These (Udacity’s) courses may help:
 
 
 
-VIII- References
+### VIII- References
 ________________________________________
 
 [OpenFace](https://cmusatyalab.github.io/openface/)

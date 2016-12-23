@@ -161,10 +161,10 @@ Therefore, the SVM algorithm is applied to predict the accuracy of the recogniti
 
 We define below our contribution on the OpenFace library to adapt the face recognition to our need and build the intended application. 
 Indeed, with this project we are going to try several improvements on the OpenFace project’s neural networks:
-- using the "batch-represent.lua" file (./batch-represent/batch-represent.lua) which is the torch neural network file which generates the pre-trained LFW neural network. 
-- also working on torch neural network in python files (./openface/openface/torch_neural_net.lutorpy.py and ./openface/openface/torch_neural_net.py) which are used to generate embeddings. 
+- using the "batch-represent.lua" file (***./batch-represent/batch-represent.lua***) which is the torch neural network file which generates the pre-trained LFW neural network. 
+- also working on torch neural network in python files (***./openface/openface/torch_neural_net.lutorpy.py*** and ***./openface/openface/torch_neural_net.py***) which are used to generate embeddings. 
 - trying to combine and test some tensorflow neural networks on the project.
-- adapting the ./demos/classifier.py python script to our project as using it we could test and tune several classifiers here including SVM with our own parameters’ value.
+- adapting the ***./demos/classifier.py*** python script to our project as using it we could test and tune several classifiers here including SVM with our own parameters’ value.
 Finally we should choose the customized recognizer as the model to use.
 The performance evaluation will be done on the same metric as previous (the Accuracy on the LFW) during the tests.
 
@@ -190,7 +190,7 @@ Here we should align the target person face images with the LFW dataset using dl
 
 ***./util/align-dlib.py ./training-images/ align outerEyesAndNose ./aligned-images/ --size 96***
 
-This will create a new ./aligned-images/ subfolder with a cropped and aligned version of each of our test images.
+This will create a new ***./aligned-images/*** subfolder with a cropped and aligned version of each of our test images.
 
 ##### 2.2- Generate the representations from the aligned images (neural network)
 
@@ -198,7 +198,7 @@ Here we should pass the aligned images to our customized network input.
 
 ***./batch-represent/main.lua -outDir ./generated-embeddings/ -data ./aligned-images/***
 
-This will create a new ./generated-embeddings/ sub-folder which will contain a CSV file with the embeddings for each face image. 
+This will create a new ***./generated-embeddings/*** sub-folder which will contain a CSV file with the embeddings for each face image. 
 
 ##### 2.3- Train the face detection model
 
@@ -206,7 +206,7 @@ Here we should apply to our customized classifier the embeddings.
 
 ***./demos/classifier.py train ./generated-embeddings/***
 
-This will generate a new file called ./generated-embeddings/classifier.pkl. This file has the SVM model we'll use to recognize new faces.
+This will generate a new file called ***./generated-embeddings/classifier.pkl***. This file has the SVM model we'll use to recognize new faces.
 
 At this point, we should have a working face recognizer.
 

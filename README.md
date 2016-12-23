@@ -188,7 +188,7 @@ Run the OpenFace scripts from inside the OpenFace root directory as below:
 
 Here we should align the target person face images with the LFW dataset using dlib.
 
-***./util/align-dlib.py ./training-images/ align outerEyesAndNose ./aligned-images/ --size 96
+***./util/align-dlib.py ./training-images/ align outerEyesAndNose ./aligned-images/ --size 96***
 
 This will create a new ./aligned-images/ subfolder with a cropped and aligned version of each of our test images.
 
@@ -196,7 +196,7 @@ This will create a new ./aligned-images/ subfolder with a cropped and aligned ve
 
 Here we should pass the aligned images to our customized network input. 
 
-***./batch-represent/main.lua -outDir ./generated-embeddings/ -data ./aligned-images/
+***./batch-represent/main.lua -outDir ./generated-embeddings/ -data ./aligned-images/***
 
 This will create a new ./generated-embeddings/ sub-folder which will contain a CSV file with the embeddings for each face image. 
 
@@ -204,7 +204,7 @@ This will create a new ./generated-embeddings/ sub-folder which will contain a C
 
 Here we should apply to our customized classifier the embeddings.
 
-***./demos/classifier.py train ./generated-embeddings/
+***./demos/classifier.py train ./generated-embeddings/***
 
 This will generate a new file called ./generated-embeddings/classifier.pkl. This file has the SVM model we'll use to recognize new faces.
 
@@ -217,13 +217,13 @@ At this point, we should have a working face recognizer.
 This is the last step of our face recognition model building.
 Now we have to get a new picture with an unknown face and pass it to the classifier script like this:
 
-***./demos/classifier.py infer ./generated-embeddings/classifier.pkl your_test_image.jpg
+***./demos/classifier.py infer ./generated-embeddings/classifier.pkl your_test_image.jpg***
 
 We should get a prediction that looks like this:
 
-***=== /test-images/ jean-claude-01.jpg ===
+***=== /test-images/ jean-claude-01.jpg ===***
 
-***Predict jean-claude with 0.73 confidence.
+***Predict jean-claude with 0.73 confidence.***
 
 In a video, each frame will be considered as an image and the recognition will be done with each new face or face position in the video.
 

@@ -275,3 +275,5 @@ ________________________________________
 [Face detection, tracking and clustering in videos](https://github.com/BrandonJoffe/home_surveillance)
 
 **Visualizing and Understanding Convolutional Networks** | Matthew D. Zeiler, Rob Fergus. | [Download here](https://arxiv.org/pdf/1311.290 1v3)
+
+**Face Synthesis from Facial Identity Features** | Forrester Cole, David Belanger, Dilip Krishnan, Aaron Sarna, Inbar Mosseri, William T. Freeman. | [Download here](https://arxiv.org/pdf/1701.04851v1)

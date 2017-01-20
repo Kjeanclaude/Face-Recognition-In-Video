@@ -279,3 +279,5 @@ ________________________________________
 **Face Synthesis from Facial Identity Features** | Forrester Cole, David Belanger, Dilip Krishnan, Aaron Sarna, Inbar Mosseri, William T. Freeman. | [Download here](https://arxiv.org/pdf/1701.04851v1)
 
 **Learning Detailed Face Reconstruction from a Single Image** | Elad Richardson, Matan Sela, Roy Or-El, Ron Kimmel. | Network model P.4 | [Download here](https://arxiv.org/pdf/1611.05053v1)
+
+**Cost-Effective Active Learning for Deep Image Classification** | Keze Wang, Dongyu Zhang, Ya Li, Ruimao Zhang, Liang Lin. | Network Architecture P.5 | [Download here](https://arxiv.org/pdf/1701.03551v1)

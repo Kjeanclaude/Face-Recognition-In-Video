@@ -282,5 +282,5 @@ ________________________________________
 
 **Cost-Effective Active Learning for Deep Image Classification** | Keze Wang, Dongyu Zhang, Ya Li, Ruimao Zhang, Liang Lin. | Network Architecture P.5 | [Download here](https://arxiv.org/pdf/1701.03551v1)
 
--	**Deep Learning Features at Scale for Visual Place Recognition** | Zetao Chen, Adam Jacobson, Niko Sünderhauf, Ben Upcroft, Lingqiao Liu, Chunhua Shen, Ian Reid and Michael Milford
-[Download here](https://arxiv.org/pdf/1701.00599)
+**Deep Learning Features at Scale for Visual Place Recognition** | Zetao Chen, Adam Jacobson, Niko Sünderhauf, Ben Upcroft, Lingqiao Liu, Chunhua Shen, Ian Reid and Michael Milford
+[Download here](https://arxiv.org/pdf/1701.05105)
